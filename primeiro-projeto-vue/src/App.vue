@@ -1,16 +1,24 @@
 
 <!-- Script -->
 <script setup>
-
-  // variaveis
-  let nome = 'Alice';
-  let idade = 25;
-  let n1 = 10;
-  let n2 = 15;
+ // Importacao dos componentes
+  import Exemplo01 from './components/Exemplo01Interpolacao.vue';
+  import Exemplo02 from './components/Exemplo02Condicional.vue';
+  import Exemplo03 from './components/Exemplo03Laco.vue';
+  import Exemplo04 from './components/Exemplo04HTML.vue';
+  import Exemplo05 from './components/Exemplo05Model.vue';
+  import Exemplo06 from './components/Exemplo06Classe.vue';
+  import Exemplo07 from './components/Exemplo07Clique.vue';
 </script>
 
+
 <!-- HTML -->
-<template>
-  <p>{{'Ola ' + nome  + ' voce tem ' + idade + ' anos de idade '}}</p>
-  <p>{{ n1 + n2 }}</p>
-</template>
+ <template>
+  <Exemplo01></Exemplo01>
+  <Exemplo02></Exemplo02>
+  <Exemplo03></Exemplo03>
+  <Exemplo04></Exemplo04>
+  <Exemplo05></Exemplo05>
+  <Exemplo06></Exemplo06>
+  <Exemplo07></Exemplo07>
+ </template>
