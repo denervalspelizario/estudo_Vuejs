@@ -9,6 +9,11 @@
   import Exemplo05 from './components/Exemplo05Model.vue';
   import Exemplo06 from './components/Exemplo06Classe.vue';
   import Exemplo07 from './components/Exemplo07Clique.vue';
+  import Exemplo08 from './components/Exemplo08Teclado.vue';
+  import Exemplo09 from './components/Exemplo09Enviar.vue';
+  import Exemplo10 from './components/Exemplo10Lifecycle.vue';
+  import Exemplo11 from './components/Exemplo11Props.vue';
+  
 </script>
 
 
@@ -21,4 +26,8 @@
   <Exemplo05></Exemplo05>
   <Exemplo06></Exemplo06>
   <Exemplo07></Exemplo07>
+  <Exemplo08></Exemplo08>
+  <Exemplo09></Exemplo09>
+  <Exemplo10></Exemplo10>
+  <Exemplo11></Exemplo11>
  </template>
